@@ -55,6 +55,11 @@ a:hover {
 .bloc-sm {
     padding: 20px 50px;
 }
+/* modifications */
+.keywords {
+    color: #cccccc;
+    font-size: 1px;
+}
 
 .bg-center,
 .bg-l-edge,
