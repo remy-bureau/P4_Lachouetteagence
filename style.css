@@ -57,7 +57,7 @@ a:hover {
 }
 /* modifications */
 .information-f {
-    color: blanchedalmond;
+    color: white;
     padding-top: 3rem;
 }
 blockquote p {
@@ -97,7 +97,7 @@ blockquote {
 	font-size: 140%;
 	text-align: center;
 	color: #fff;
-	margin: -16px -16px 16px -16px;
+    margin: -16px -16px 16px -16px;
 }
 .form-style-6 input[type="text"],
 .form-style-6 input[type="date"],
@@ -157,7 +157,7 @@ blockquote {
 	border-top-style: none;
 	border-right-style: none;
 	border-left-style: none;	
-	color: #fff;
+	color: black;
 }
 .form-style-6 input[type="submit"]:hover,
 .form-style-6 input[type="button"]:hover{
@@ -201,7 +201,7 @@ blockquote {
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
-    opacity: 0.6;
+    opacity: 0.5;
 }
 
 .b-parallax {
@@ -304,7 +304,7 @@ blockquote {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0);
 }
 
 .d-bloc .panel button:hover,
@@ -832,8 +832,13 @@ h4 {
 }
 
 .tc-white {
-    color: #f3813f!important;
-    text-shadow: 2px 2px 3px #8A4F04;
+    color: #9b3f09!important;
+}
+h1 {
+    color: #fddbc6!important;
+}
+.tc-white2 {
+    color: white!important;
 }
 
 .btn-atomic-tangerine {
@@ -877,10 +882,14 @@ h4 {
 
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");
+    border-top:5px solid #F3976C;
+    border-bottom: 5px solid #F3976C;
 }
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
+    border-top:5px solid #F3976C;
+    border-bottom: 5px solid #F3976C;
 }
 
 @media (max-width: 1024px) {
