@@ -57,7 +57,7 @@ a:hover {
 }
 /* modifications */
 .text-strong {
-    font-weight: bold;
+    font-weight: bold!important;
 }
 .information-f {
     color: white;
